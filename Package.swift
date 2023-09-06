@@ -5,11 +5,16 @@ import PackageDescription
 
 let package = Package(
     name: "FoodTruckKit",
+    platforms: [
+        .iOS(.v16)
+    ],
+    products: [.library(name: "FoodTruckKit", targets: ["FoodTruckKit"])],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
         .executableTarget(
             name: "FoodTruckKit",
             path: "Sources"),
-    ]
+    ],
+    swiftLanguageVersions: [.v5]
 )
