@@ -1,3 +1,3 @@
 # FoodTruckKit
 
-A description of this package.
+FoodTruckKit for SwiftUI
