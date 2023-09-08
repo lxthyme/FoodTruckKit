@@ -24,6 +24,9 @@ public extension Ingredient {
 // MARK: - 👀
 public extension Ingredient {
     func image(thumbnail: Bool) -> Image {
-        Image("\(Self.imageAssetPrefix)/\(imageAssetName)-\(thumbnail ? "thumb" : "full")", bundle: .main)
+        let path = "\(Self.imageAssetPrefix)/\(imageAssetName)-\(thumbnail ? "thumb" : "full")"
+        let img = Image(path, bundle: .module)
+        print("-->thumbnail: \(path)")
+        return img
     }
 }

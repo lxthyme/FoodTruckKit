@@ -160,26 +160,26 @@ public enum OrderStatus: Int, Codable, Comparable {
     public var title: String {
         switch self {
         case .placed:
-            return String(localized: "Placed", bundle: .main, comment: "Order status.")
+            return String(localized: "Placed", bundle: .module, comment: "Order status.")
         case .preparing:
-            return String(localized: "Preparing", bundle: .main, comment: "Order status.")
+            return String(localized: "Preparing", bundle: .module, comment: "Order status.")
         case .ready:
-            return String(localized: "Ready", bundle: .main, comment: "Order status.")
+            return String(localized: "Ready", bundle: .module, comment: "Order status.")
         case .completed:
-            return String(localized: "Completed", bundle: .main, comment: "Order status.")
+            return String(localized: "Completed", bundle: .module, comment: "Order status.")
         }
     }
 
     public var buttonTitle: String {
         switch self {
         case .placed:
-            return String(localized: "Prepare", bundle: .main, comment: "Order next step.")
+            return String(localized: "Prepare", bundle: .module, comment: "Order next step.")
         case .preparing:
-            return String(localized: "Ready", bundle: .main, comment: "Order next step.")
+            return String(localized: "Ready", bundle: .module, comment: "Order next step.")
         case .ready:
-            return String(localized: "Complete", bundle: .main, comment: "Order next step.")
+            return String(localized: "Complete", bundle: .module, comment: "Order next step.")
         case .completed:
-            return String(localized: "Complete", bundle: .main, comment: "Order next step.")
+            return String(localized: "Complete", bundle: .module, comment: "Order next step.")
         }
     }
 

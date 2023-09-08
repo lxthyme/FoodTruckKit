@@ -52,7 +52,7 @@ public struct Donut: Identifiable, Hashable {
 public extension Donut {
     static let classic = Donut(
         id: 0,
-        name: String(localized: "The Classic", bundle: .main, comment: "A donut-flavor name."),
+        name: String(localized: "The Classic", bundle: .module, comment: "A donut-flavor name."),
         dough: .plain,
         glaze: .chocolate,
         topping: .sprinkles
@@ -60,7 +60,7 @@ public extension Donut {
 
     static let blueberryFrosted = Donut(
         id: 1,
-        name: String(localized: "Blueberry Frosted", bundle: .main, comment: "A donut-flavor name."),
+        name: String(localized: "Blueberry Frosted", bundle: .module, comment: "A donut-flavor name."),
         dough: .blueberry,
         glaze: .blueberry,
         topping: .sugarLattice
@@ -68,7 +68,7 @@ public extension Donut {
 
     static let strawberryDrizzle = Donut(
         id: 2,
-        name: String(localized: "Strawberry Drizzle", bundle: .main, comment: "A donut-flavor name."),
+        name: String(localized: "Strawberry Drizzle", bundle: .module, comment: "A donut-flavor name."),
         dough: .strawberry,
         glaze: .strawberry,
         topping: .sugarDrizzle
@@ -76,7 +76,7 @@ public extension Donut {
 
     static let cosmos = Donut(
         id: 3,
-        name: String(localized: "Cosmos", bundle: .main, comment: "A donut-flavor name."),
+        name: String(localized: "Cosmos", bundle: .module, comment: "A donut-flavor name."),
         dough: .chocolate,
         glaze: .chocolate,
         topping: .starSprinkles
@@ -84,7 +84,7 @@ public extension Donut {
 
     static let strawberrySprinkles = Donut(
         id: 4,
-        name: String(localized: "Strawberry Sprinkles", bundle: .main, comment: "A donut-flavor name."),
+        name: String(localized: "Strawberry Sprinkles", bundle: .module, comment: "A donut-flavor name."),
         dough: .plain,
         glaze: .strawberry,
         topping: .starSprinkles
@@ -92,7 +92,7 @@ public extension Donut {
 
     static let lemonChocolate = Donut(
         id: 5,
-        name: String(localized: "Lemon Chocolate", bundle: .main, comment: "A donut-flavor name."),
+        name: String(localized: "Lemon Chocolate", bundle: .module, comment: "A donut-flavor name."),
         dough: .plain,
         glaze: .chocolate,
         topping: .lemonLines
@@ -100,14 +100,14 @@ public extension Donut {
 
     static let rainbow = Donut(
         id: 6,
-        name: String(localized: "Rainbow", bundle: .main, comment: "A donut-flavor name."),
+        name: String(localized: "Rainbow", bundle: .module, comment: "A donut-flavor name."),
         dough: .plain,
         glaze: .rainbow
     )
 
     static let picnicBasket = Donut(
         id: 7,
-        name: String(localized: "Picnic Basket", bundle: .main, comment: "A donut-flavor name."),
+        name: String(localized: "Picnic Basket", bundle: .module, comment: "A donut-flavor name."),
         dough: .chocolate,
         glaze: .strawberry,
         topping: .blueberryLattice
@@ -115,7 +115,7 @@ public extension Donut {
 
     static let figureSkater = Donut(
         id: 8,
-        name: String(localized: "Figure Skater", bundle: .main, comment: "A donut-flavor name."),
+        name: String(localized: "Figure Skater", bundle: .module, comment: "A donut-flavor name."),
         dough: .plain,
         glaze: .blueberry,
         topping: .sugarDrizzle
@@ -123,21 +123,21 @@ public extension Donut {
 
     static let powderedChocolate = Donut(
         id: 9,
-        name: String(localized: "Powdered Chocolate", bundle: .main, comment: "A donut-flavor name."),
+        name: String(localized: "Powdered Chocolate", bundle: .module, comment: "A donut-flavor name."),
         dough: .chocolate,
         topping: .powderedSugar
     )
 
     static let powderedStrawberry = Donut(
         id: 10,
-        name: String(localized: "Powdered Strawberry", bundle: .main, comment: "A donut-flavor name."),
+        name: String(localized: "Powdered Strawberry", bundle: .module, comment: "A donut-flavor name."),
         dough: .strawberry,
         topping: .powderedSugar
     )
 
     static let custard = Donut(
         id: 11,
-        name: String(localized: "Custard", bundle: .main, comment: "A donut-flavor name."),
+        name: String(localized: "Custard", bundle: .module, comment: "A donut-flavor name."),
         dough: .lemonade,
         glaze: .spicy,
         topping: .lemonLines
@@ -145,7 +145,7 @@ public extension Donut {
 
     static let superLemon = Donut(
         id: 12,
-        name: String(localized: "Super Lemon", bundle: .main, comment: "A donut-flavor name."),
+        name: String(localized: "Super Lemon", bundle: .module, comment: "A donut-flavor name."),
         dough: .lemonade,
         glaze: .lemon,
         topping: .sprinkles
@@ -153,7 +153,7 @@ public extension Donut {
 
     static let fireZest = Donut(
         id: 13,
-        name: String(localized: "Fire Zest", bundle: .main, comment: "A donut-flavor name."),
+        name: String(localized: "Fire Zest", bundle: .module, comment: "A donut-flavor name."),
         dough: .lemonade,
         glaze: .spicy,
         topping: .spicySauceDrizzle
@@ -161,7 +161,7 @@ public extension Donut {
 
     static let blackRaspberry = Donut(
         id: 14,
-        name: String(localized: "Black Raspberry", bundle: .main, comment: "A donut-flavor name."),
+        name: String(localized: "Black Raspberry", bundle: .module, comment: "A donut-flavor name."),
         dough: .plain,
         glaze: .chocolate,
         topping: .blueberryDrizzle
@@ -169,14 +169,14 @@ public extension Donut {
 
     static let daytime = Donut(
         id: 15,
-        name: String(localized: "Daytime", bundle: .main, comment: "A donut-flavor name."),
+        name: String(localized: "Daytime", bundle: .module, comment: "A donut-flavor name."),
         dough: .lemonade,
         glaze: .rainbow
     )
 
     static let nighttime = Donut(
         id: 16,
-        name: String(localized: "Nighttime", bundle: .main, comment: "A donut-flavor name."),
+        name: String(localized: "Nighttime", bundle: .module, comment: "A donut-flavor name."),
         dough: .chocolate,
         glaze: .chocolate,
         topping: .chocolateDrizzle
@@ -189,6 +189,8 @@ public extension Donut {
         powderedChocolate, powderedStrawberry, custard,
         superLemon, fireZest, blackRaspberry, daytime, nighttime
     ]
+
+    static var preview: Donut { .classic }
 }
 
 

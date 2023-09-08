@@ -10,23 +10,23 @@ import SwiftUI
 // MARK: - 👀
 public extension Image {
     static var donutSymbol: Image {
-        Image("donut", bundle: .main)
+        Image("donut", bundle: .module)
     }
 
     static func flavorSymbol(_ flavor: Flavor) -> Image {
         switch flavor {
         case .salty:
-            return Image("salty", bundle: .main)
+            return Image("salty", bundle: .module)
         case .sweet:
-            return Image("sweet", bundle: .main)
+            return Image("sweet", bundle: .module)
         case .bitter:
-            return Image("bitter", bundle: .main)
+            return Image("bitter", bundle: .module)
         case .sour:
-            return Image("sour", bundle: .main)
+            return Image("sour", bundle: .module)
         case .savory:
             return Image(systemName: "face.smiling")
         case .spicy:
-            return Image("spicy", bundle: .main)
+            return Image("spicy", bundle: .module)
         }
     }
 }
